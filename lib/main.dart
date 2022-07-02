@@ -49,6 +49,7 @@ class MyApp extends StatelessWidget {
       children: [
         _buildButtonColumn(color, Icons.call, 'CALL'),
         _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+        _buildButtonColumn(color, Icons.share, 'SHARE')
       ],
     );
 
